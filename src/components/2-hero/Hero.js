@@ -101,7 +101,7 @@ export default function Hero() {
               target="_blank"
               download="Ahmed_Gamhody_FrontEnd_Developer_CV.pdf"
             >
-              Download CV
+              Download My CV
             </Button>
           </Tooltip>
         </Grid>
