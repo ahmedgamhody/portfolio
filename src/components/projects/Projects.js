@@ -43,6 +43,7 @@ import Business from "../../Assets/projects images/Business.png";
 import ProfileCard from "../../Assets/projects images/ProfileCard.png";
 import beans from "../../Assets/projects images/beans.png";
 import Prayertimes from "../../Assets/projects images/praytimes.png";
+import portfolio from "../../Assets/projects images/portfolio.png";
 
 //
 
@@ -52,6 +53,18 @@ export const myProject = [
     description:
       "It is an admin dashboard project and consists of several pages, which are the main page, team management, contact information, profile, calender, FAQ page, and a number of pages using the nivo library. The site is characterized by changing the mode from dark to light.",
     image: adminDashboardImage,
+    repo: "https://github.com/ahmedgamhody/portfolio",
+    demo: "https://ahmedgamhodyportfolio.netlify.app/",
+    video: "",
+    stack: "react",
+
+    tech: [react, MaterialUi, ReactRouter],
+  },
+  {
+    title: "My Portfolio",
+    description:
+      "This is my portfolio project, and I applied it to React and used the components. It consists of the home page, About, experience, projects, and ways to communicate with me. I displayed my level and all my projects in it. It works on all screens and in dark mode and light mode.",
+    image: portfolio,
     repo: "https://github.com/ahmedgamhody/admin_dashboard",
     demo: "https://admin-dashboard-react-dev.netlify.app/",
     video:
