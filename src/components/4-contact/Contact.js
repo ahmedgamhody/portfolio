@@ -33,6 +33,7 @@ export default function Contact() {
     vertical: "top",
     horizontal: "right",
   });
+  console.log("state", state);
 
   const { vertical, horizontal, open } = stateSnackbar;
 
