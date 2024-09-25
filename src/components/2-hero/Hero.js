@@ -8,7 +8,7 @@ import {
   Button,
   useMediaQuery,
 } from "@mui/material";
-import CV from "../../Assets/cv.pdf";
+import CV from "../../Assets/ahmedgamhody frontend developer cv.pdf";
 import Grid from "@mui/material/Grid";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import SocialLinksCom from "../SocialLinksCom";
