@@ -1,8 +1,7 @@
-import { Stack, Typography, useTheme } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import React from "react";
 import SocialLinksCom from "../SocialLinksCom";
 export default function Footer() {
-  const theme = useTheme();
   return (
     <Stack
       direction={{ md: "row", sm: "column", xs: "column" }}
