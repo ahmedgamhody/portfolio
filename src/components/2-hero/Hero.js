@@ -89,7 +89,7 @@ export default function Hero() {
                 color: "rgb(20 184 166)",
                 mt: 3,
                 borderRadius: 3,
-                width: "180px",
+                width: "200px",
                 "&:hover": {
                   borderColor: "rgb(20 184 166)",
                   backgroundColor: "rgb(20 184 166)",
