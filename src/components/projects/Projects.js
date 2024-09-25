@@ -49,30 +49,31 @@ import portfolio from "../../Assets/projects images/portfolio.png";
 
 export const myProject = [
   {
-    title: "Admin Dashboard",
-    description:
-      "It is an admin dashboard project and consists of several pages, which are the main page, team management, contact information, profile, calender, FAQ page, and a number of pages using the nivo library. The site is characterized by changing the mode from dark to light.",
-    image: adminDashboardImage,
-    repo: "https://github.com/ahmedgamhody/portfolio",
-    demo: "https://ahmedgamhodyportfolio.netlify.app/",
-    video: "",
-    stack: "react",
-
-    tech: [react, MaterialUi, ReactRouter],
-  },
-  {
     title: "My Portfolio",
     description:
       "This is my portfolio project, and I applied it to React and used the components. It consists of the home page, About, experience, projects, and ways to communicate with me. I displayed my level and all my projects in it. It works on all screens and in dark mode and light mode.",
     image: portfolio,
     repo: "https://github.com/ahmedgamhody/admin_dashboard",
     demo: "https://admin-dashboard-react-dev.netlify.app/",
+    video: "",
+    stack: "react",
+
+    tech: [react, MaterialUi, ReactRouter],
+  },
+  {
+    title: "Admin Dashboard",
+    description:
+      "It is an admin dashboard project and consists of several pages, which are the main page, team management, contact information, profile, calender, FAQ page, and a number of pages using the nivo library. The site is characterized by changing the mode from dark to light.",
+    image: adminDashboardImage,
+    repo: "https://github.com/ahmedgamhody/portfolio",
+    demo: "https://ahmedgamhodyportfolio.netlify.app/",
     video:
       "https://www.linkedin.com/feed/update/urn:li:activity:7243272821454323712/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7243272821454323712%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29&originTrackingId=Q9KxoDKMQyi4%2BvEVBD8wuA%3D%3D",
     stack: "react",
 
     tech: [react, MaterialUi, ReactRouter],
   },
+
   {
     title: "Fitness Exercises ",
     description:
