@@ -13,6 +13,7 @@ import jsonServer from "../../Assets/JSON.png";
 import swiper from "../../Assets/swiper.png";
 import Rapid from "../../Assets/Rapid API.png";
 import Laravel from "../../Assets/Laravel.png";
+import strapi from "../../Assets/strapi.png";
 
 // images
 import adminDashboardImage from "../../Assets/projects images/admin-dashboard.png";
@@ -46,6 +47,7 @@ import beans from "../../Assets/projects images/beans.png";
 import Prayertimes from "../../Assets/projects images/praytimes.png";
 import portfolio from "../../Assets/projects images/portfolio.png";
 import CRUDproject3 from "../../Assets/projects images/CRUD_management_system_fullstack.png";
+import e_commerce_fullstack from "../../Assets/projects images/e-commerce.png";
 
 //
 
@@ -61,6 +63,19 @@ export const myProject = [
     stack: "react",
 
     tech: [react, MaterialUi, ReactRouter],
+  },
+  {
+    title: "E-commerce Website",
+    description:
+      "It is an integrated online store project consisting of a frontend and backend and a practical application on Redux Toolkit and a library developed by React. It is distinguished by being dark and light mode and consists of more than one page such as the home , cart , register and login page.",
+    image: e_commerce_fullstack,
+    repo: "https://github.com/ahmedgamhody/e-commerce_website_fullstack",
+    demo: "https://e-commerce-full-stack-dev.netlify.app/",
+    video:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7244775166377902080/",
+    stack: "react",
+
+    tech: [react, MaterialUi, ReactRouter, Redux, swiper, strapi],
   },
   {
     title: "CRUD management system",
