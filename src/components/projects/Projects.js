@@ -12,6 +12,7 @@ import jquery from "../../Assets/jQuery.png";
 import jsonServer from "../../Assets/JSON.png";
 import swiper from "../../Assets/swiper.png";
 import Rapid from "../../Assets/Rapid API.png";
+import Laravel from "../../Assets/Laravel.png";
 
 // images
 import adminDashboardImage from "../../Assets/projects images/admin-dashboard.png";
@@ -44,6 +45,7 @@ import ProfileCard from "../../Assets/projects images/ProfileCard.png";
 import beans from "../../Assets/projects images/beans.png";
 import Prayertimes from "../../Assets/projects images/praytimes.png";
 import portfolio from "../../Assets/projects images/portfolio.png";
+import CRUDproject3 from "../../Assets/projects images/CRUD_management_system_fullstack.png";
 
 //
 
@@ -61,6 +63,18 @@ export const myProject = [
     tech: [react, MaterialUi, ReactRouter],
   },
   {
+    title: "CRUD management system",
+    description:
+      "It is a more practical application based on the idea of ​​authentication and authorization and Dealing with tokens and Protect tracks and keep you logged in even when refreshing the page.It consists of a set of pages, all of which are on the dashboard , and login and register Page.",
+    image: CRUDproject3,
+    repo: "https://github.com/ahmedgamhody/CRUD_management_system_fullstack",
+    demo: "",
+    video:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7244745072112459779/",
+    stack: "react",
+    tech: [react, MaterialUi, ReactRouter, Laravel],
+  },
+  {
     title: "Admin Dashboard",
     description:
       "It is an admin dashboard project and consists of several pages, which are the main page, team management, contact information, profile, calender, FAQ page, and a number of pages using the nivo library. The site is characterized by changing the mode from dark to light.",
@@ -68,10 +82,10 @@ export const myProject = [
     repo: "https://github.com/ahmedgamhody/admin_dashboard",
     demo: "https://admin-dashboard-react-dev.netlify.app/",
     video:
-      "https://www.linkedin.com/feed/update/urn:li:activity:7243272821454323712/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7243272821454323712%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29&originTrackingId=Q9KxoDKMQyi4%2BvEVBD8wuA%3D%3D",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7243272821454323712/",
     stack: "react",
 
-    tech: [react, MaterialUi, ReactRouter],
+    tech: [react, ReactbootStrap, ReactRouter],
   },
 
   {
