@@ -9,7 +9,6 @@ import ReactRouter from "../../Assets/react-router.png";
 import Redux from "../../Assets/Redux.png";
 import MaterialUi from "../../Assets/Material UI.png";
 import jquery from "../../Assets/jQuery.png";
-import TypeScript from "../../Assets/TypeScript.png";
 import jsonServer from "../../Assets/JSON.png";
 import swiper from "../../Assets/swiper.png";
 import Rapid from "../../Assets/Rapid API.png";
