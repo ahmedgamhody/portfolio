@@ -44,6 +44,7 @@ export default function Hero() {
                   marginRight: "10px",
                   cursor: "pointer",
                 }}
+                loading="lazy"
               ></img>
             </Tooltip>
             <Tooltip title="Gamhody">

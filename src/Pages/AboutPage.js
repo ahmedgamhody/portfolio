@@ -79,6 +79,7 @@ export default function AboutPage() {
             <img
               src={require("../Assets/me.png")}
               alt="Ahmed Shaban Gamhody"
+              loading="lazy"
               style={{
                 maxWidth: "100%",
                 width: "390px",
