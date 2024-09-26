@@ -10,7 +10,6 @@ import LinkIcon from "@mui/icons-material/Link";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 import { motion } from "framer-motion";
-import LazyLoad from "react-lazyload";
 
 export default function CardCom({ project }) {
   return (
@@ -38,14 +37,13 @@ export default function CardCom({ project }) {
         },
       }}
     >
-      <LazyLoad>
-        <CardMedia
-          component="img"
-          height="160"
-          image={project.image}
-          alt="green iguana"
-        />
-      </LazyLoad>
+      <CardMedia
+        component="img"
+        height="160"
+        image={project.image}
+        alt="green iguana"
+        loading="lazy"
+      />
 
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
