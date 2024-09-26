@@ -15,7 +15,6 @@ import SocialLinksCom from "../SocialLinksCom";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import heroAnimation from "../../animation/heroanimation.json";
 import Lottie from "lottie-react";
-
 export default function Hero() {
   const theme = useTheme();
   const displayAnimation = useMediaQuery("(min-width:850px)");

@@ -5,7 +5,6 @@ import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import CardCom from "./CardCom";
 import { myProject } from "../projects/Projects";
 import Pagination from "@mui/material/Pagination";
-
 export default function Main() {
   const [page, setPage] = useState(1);
   const limtePerPage = 6;
