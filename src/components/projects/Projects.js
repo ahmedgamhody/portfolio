@@ -60,7 +60,8 @@ export const myProject = [
     image: ecommerce_ts_kimsCode,
     repo: "https://github.com/ahmedgamhody/frontend-ecommerce-ts",
     demo: "https://e-commerce-ts-dev.netlify.app/",
-    video: "",
+    video:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7259987935410708481/",
     stack: "react",
 
     tech: [react, typescript, ReactbootStrap, ReactRouter, Redux, jsonServer],
