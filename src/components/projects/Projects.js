@@ -14,6 +14,7 @@ import swiper from "../../Assets/swiper.png";
 import Rapid from "../../Assets/Rapid API.png";
 import Laravel from "../../Assets/Laravel.png";
 import strapi from "../../Assets/strapi.png";
+import typescript from "../../Assets/TypeScript.png";
 
 // images
 import adminDashboardImage from "../../Assets/projects images/admin-dashboard.png";
@@ -48,10 +49,22 @@ import Prayertimes from "../../Assets/projects images/praytimes.png";
 import portfolio from "../../Assets/projects images/portfolio.png";
 import CRUDproject3 from "../../Assets/projects images/CRUD_management_system_fullstack.png";
 import e_commerce_fullstack from "../../Assets/projects images/e-commerce.png";
-
+import ecommerce_ts_kimsCode from "../../Assets/projects images/e-commerc with ts.png";
 //
 
 export const myProject = [
+  {
+    title: "E-commerce Website",
+    description:
+      "It is an integrated online store project consisting of a frontend and backend and a practical application on Redux Toolkit and a library developed by React and TypeScript . It is consists of more than one page such as the home , cart , register,login ,Products , profile and orders , wishlist page .",
+    image: ecommerce_ts_kimsCode,
+    repo: "https://github.com/ahmedgamhody/frontend-ecommerce-ts",
+    demo: "https://e-commerce-ts-dev.netlify.app/",
+    video: "",
+    stack: "react",
+
+    tech: [react, typescript, ReactbootStrap, ReactRouter, Redux, jsonServer],
+  },
   {
     title: "My Portfolio",
     description:
